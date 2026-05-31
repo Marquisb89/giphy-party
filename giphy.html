@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Giphy Project</title>
+</head>
+<body>
+  <h1>Giphy Party</h1>
+
+  <form id="search-form">
+    <input
+      type="text"
+      id="search-term"
+      placeholder="Search for a GIF"
+      required
+    />
+    <button type="submit">Search</button>
+  </form>
+
+  <button id="remove-gifs">Remove All GIFs</button>
+  
+  <div id="gif-area"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="giphy.js"></script>
+</body>
