@@ -1,0 +1,46 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Search form */
+#search-form {
+  margin-bottom: 15px;
+}
+
+#search-term {
+  padding: 10px;
+  font-size: 1rem;
+  width: 250px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* GIF area */
+#gif-area {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+#gif-area img {
+  width: 200px;
+  border-radius: 10px;
+}
+
